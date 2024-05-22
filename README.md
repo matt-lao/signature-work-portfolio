@@ -1,12 +1,18 @@
 # Signature Work Portfolio
 The following is reflection on a selection of projects I have been involved in at my time at the [University of St. Thomas](https://www.stthomas.edu/).
 
-### St. Paul Crime Data Explorer
-[Project Link](https://github.com/matt-lao/st-paul-crime-data-explorer)
+### St. Paul Crime Data Explorer - [Project Link](https://github.com/matt-lao/st-paul-crime-data-explorer)
 
+This is a project I was a developer for as part of the course CISC 375: Web Development. It is a full-stack web application built primarily using Vue.js and Node.js that can explore the last decade of crime data in St. Paul, MN. It utilizes a REST API created with Express.js that handles requests to an SQLite database of over 450,000 incidents. This crime data was visualized on an interactive map that was configured using Leaflet.js, which highlighted disparities across the seventeen different neighborhoods in St. Paul. The goal of an application like this is to shed light on the types and frequency of crime in St. Paul, with hopes of promoting the safety and well-being of current and future residents alike. 
 
-### Mock VR St. Thomas Merchandise Store
-[Project Link](https://github.com/matt-lao/ust-vr-merch-store)
+### Mock VR St. Thomas Merchandise Store - [Project Link](https://github.com/matt-lao/ust-vr-merch-store)
 
-### Country Level Life Expectancy Model
-[Project Link](https://github.com/matt-lao/country-level-life-expectancy-model)
+This is a project where, in my role as an Extended-Reality (XR) Developer for [STELAR](https://www.stthomas.edu/stelar/), I lead the design of a mock virtual reality merchandise as part of an emerging technologies conference presented to the Board of Governors at the Opus College of Business. This mock VR shop was created primarily using Spatial.io and Blender. A majority of the space was built using 3D assets that were freely avaiable on sites like [SketchFab](https://sketchfab.com/). There are custom merchanise items in the space that were based off of scan of real-life objects for the St. Thomas Merch Store. The skybox for the environment was sourced from Google Street View and represented in the environment for further immersion. The goal of a project like this was to demonstrate the buisness and marketing capabilities of virtual reality to board members at the Opus College of Business. This project, amongst others, has sparked interest of the board and faculuty the Opus College of Business in VR/AR technology, leading its integration in 3+ courses there.  
+
+### Country Level Life Expectancy Model - [Project Link](https://github.com/matt-lao/country-level-life-expectancy-model)
+
+This is a project where I was a researcher along with another student in developing a Structural Equation Model (SEM) for life-expectancy for nearly all nations across the globe. This project was part of the class STAT 360: Computational Statistics & Data Analysis. Through our research we produced a seven-factor SEM to explore the predictors of a country's life expectancy. We aggregated data from 200+ countries across the set of [World Development Indictors](https://datatopics.worldbank.org/world-development-indicators/) (WDI) from the [World Bank](https://www.worldbank.org/en/home) for the year 2019. In generating the model we found it necessary to perform oblique rotation on our seven-factor loading matrix after dimensionality reduction using principle compomenent analysis. We did this all using R and RStudio, generating documenation on our findings uisng RMarkdown and RStudio visualization packages. 
+
+Our analysis revealed significant insights into life expectancy predictors. Electricity Access, Political Stability, and Government Healthcare Expenditure emerged as significant predictors that had a positive relationship with Life Expectancy. Notably Out-of-pocket cost, and Alcohol Consumption had a significant negative relationship. In terms of effect size, Electricity Access had the largest substantial effect on Life Expectancy. And interestingly, Out-of-pocket cost had the largest substantial negative effect where for a single unit increase would result in a –0.203 decrease in Life Expectancy.
+
+Our hope is that through strategic decision making, nations will be able to make effective changes to increase life expectancy based on these findings. Countries should prioritize key factors such as providing access to reliable electricity and addressing socio-economic health by investing in health care and reducing out-of-pocket costs for insurance.
